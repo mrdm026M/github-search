@@ -12,6 +12,10 @@
 /.next/
 /out/
 
+# fonts
+*.woff
+*.woff2
+
 # production
 /build
 
