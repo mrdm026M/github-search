@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
-import "../styles/globals.css";
+import "../styles/main.css";
+// import "../styles/components/Navbar.css";
 
 function MyApp({ Component, pageProps }) {
   return (
