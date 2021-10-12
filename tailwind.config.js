@@ -1,9 +1,17 @@
 module.exports = {
   mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "class", // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        sm: "480px",
+        md: "547px",
+        lg: "768px",
+        xl: "1024px",
+        xxl: "1280px",
+      },
+    },
   },
   variants: {
     extend: {},
